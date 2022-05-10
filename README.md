@@ -1,3 +1,9 @@
+# Proyecto del Curso de optimización y deploy de Next.JS de Platzi
+
+![Captura de next optimizacion y deploy](.readme-static/captura-next-optimization.png)
+
+[Ver la app en producción](https://next-optimizacion-jvqps8rp3-jairoduenas.vercel.app/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
