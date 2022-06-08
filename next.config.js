@@ -9,6 +9,10 @@ const config = {
   images: {
     domains: ['images.ctfassets.net'],
   },
+  i18n: {
+    locales: ['en_US', 'es'],
+    defaultLocale: 'en_US',
+  }
 }
 
 module.exports = withBundleAnalyzer(config)
