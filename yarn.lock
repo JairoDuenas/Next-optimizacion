@@ -1816,9 +1816,9 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
-clsx@^1.0.4, clsx@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/clsx/-/clsx-1.1.1.tgz"
+clsx@^1.0.4, clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
 
 color-convert@^1.9.0:
   version "1.9.3"
