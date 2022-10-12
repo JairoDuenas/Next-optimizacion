@@ -222,10 +222,6 @@
   version "7.13.0"
   resolved "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.13.0.tgz"
 
-"@babel/helper-plugin-utils@^7.14.5":
-  version "7.19.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.19.0.tgz#4796bb14961521f0f8715990bee2fb6e51ce21bf"
-
 "@babel/helper-replace-supers@^7.12.13", "@babel/helper-replace-supers@^7.13.0", "@babel/helper-replace-supers@^7.13.12":
   version "7.13.12"
   resolved "https://registry.npmjs.org/@babel/helper-replace-supers/-/helper-replace-supers-7.13.12.tgz"
@@ -505,7 +501,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/template@^7.12.13", "@babel/template@^7.15.4", "@babel/template@^7.18.10", "@babel/template@^7.18.6":
+"@babel/template@^7.12.13", "@babel/template@^7.18.10", "@babel/template@^7.18.6":
   version "7.18.10"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.18.10.tgz#6f9134835970d1dbf0835c0d100c9f38de0c5e71"
   dependencies:
@@ -590,21 +586,13 @@
   version "0.8.0"
   resolved "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz"
 
-"@graphql-codegen/add@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/add/-/add-3.2.1.tgz#f1109f36f194f88a6abcc51703abee43ebbb50a2"
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    tslib "~2.4.0"
-
-"@graphql-codegen/cli@^2.13.0":
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.13.0.tgz#f27b334b992eeb2666fbb90baf6b5ed997d411a6"
+"@graphql-codegen/cli@^2.13.6":
+  version "2.13.6"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.13.6.tgz#70e2f93aa51f5350af821063368953a667b161de"
   dependencies:
     "@babel/generator" "^7.18.13"
     "@babel/template" "^7.18.10"
     "@babel/types" "^7.18.13"
-    "@graphql-codegen/client-preset" "1.0.1"
     "@graphql-codegen/core" "2.6.2"
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     "@graphql-tools/apollo-engine-loader" "^7.3.6"
@@ -622,38 +610,22 @@
     chalk "^4.1.0"
     chokidar "^3.5.2"
     cosmiconfig "^7.0.0"
-    cosmiconfig-typescript-loader "4.0.0"
+    cosmiconfig-typescript-loader "4.1.1"
     debounce "^1.2.0"
     detect-indent "^6.0.0"
-    graphql-config "^4.3.5"
+    graphql-config "4.3.6"
     inquirer "^8.0.0"
     is-glob "^4.0.1"
     json-to-pretty-yaml "^1.2.2"
     listr2 "^4.0.5"
     log-symbols "^4.0.0"
     mkdirp "^1.0.4"
+    shell-quote "^1.7.3"
     string-env-interpolation "^1.0.1"
     ts-log "^2.2.3"
     tslib "^2.4.0"
     yaml "^1.10.0"
     yargs "^17.0.0"
-
-"@graphql-codegen/client-preset@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/client-preset/-/client-preset-1.0.1.tgz#a0f3c27638b9981550d4e76982211d516d078c4b"
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.14.5"
-    "@babel/template" "^7.15.4"
-    "@graphql-codegen/add" "^3.2.1"
-    "@graphql-codegen/gql-tag-operations" "^1.5.0"
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/typed-document-node" "^2.3.3"
-    "@graphql-codegen/typescript" "^2.7.3"
-    "@graphql-codegen/typescript-operations" "^2.5.3"
-    "@graphql-codegen/visitor-plugin-common" "^2.12.1"
-    "@graphql-tools/utils" "^8.8.0"
-    "@graphql-typed-document-node/core" "3.1.1"
-    tslib "~2.4.0"
 
 "@graphql-codegen/core@2.6.2":
   version "2.6.2"
@@ -662,16 +634,6 @@
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     "@graphql-tools/schema" "^9.0.0"
     "@graphql-tools/utils" "^8.8.0"
-    tslib "~2.4.0"
-
-"@graphql-codegen/gql-tag-operations@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/gql-tag-operations/-/gql-tag-operations-1.5.0.tgz#8ad4d69e51203cf181376a66d0ad30289be67467"
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/visitor-plugin-common" "2.12.1"
-    "@graphql-tools/utils" "^8.8.0"
-    auto-bind "~4.0.0"
     tslib "~2.4.0"
 
 "@graphql-codegen/plugin-helpers@^2.6.2", "@graphql-codegen/plugin-helpers@^2.7.1":
@@ -691,16 +653,6 @@
   dependencies:
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     "@graphql-tools/utils" "^8.8.0"
-    tslib "~2.4.0"
-
-"@graphql-codegen/typed-document-node@^2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typed-document-node/-/typed-document-node-2.3.3.tgz#898b36738ee5377d83bd381460faf4c32013afe8"
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.6.2"
-    "@graphql-codegen/visitor-plugin-common" "2.12.1"
-    auto-bind "~4.0.0"
-    change-case-all "1.0.14"
     tslib "~2.4.0"
 
 "@graphql-codegen/typescript-graphql-request@^4.5.5":
@@ -747,7 +699,7 @@
     parse-filepath "^1.0.2"
     tslib "~2.4.0"
 
-"@graphql-codegen/visitor-plugin-common@2.12.2", "@graphql-codegen/visitor-plugin-common@^2.12.1":
+"@graphql-codegen/visitor-plugin-common@2.12.2":
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-2.12.2.tgz#70eefed5567dbec6d289b05047b04bc9faae428e"
   dependencies:
@@ -958,7 +910,7 @@
     tslib "^2.4.0"
     value-or-promise "1.0.11"
 
-"@graphql-typed-document-node/core@3.1.1", "@graphql-typed-document-node/core@^3.1.1":
+"@graphql-typed-document-node/core@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
 
@@ -1790,9 +1742,9 @@ cosmiconfig-toml-loader@1.0.0:
   dependencies:
     "@iarna/toml" "^2.2.5"
 
-cosmiconfig-typescript-loader@4.0.0, cosmiconfig-typescript-loader@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-4.0.0.tgz#4a6d856c1281135197346a6f64dfa73a9cd9fefa"
+cosmiconfig-typescript-loader@4.1.1, cosmiconfig-typescript-loader@^4.0.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-4.1.1.tgz#38dd3578344038dae40fdf09792bc2e9df529f78"
 
 cosmiconfig@7.0.1, cosmiconfig@^7.0.0:
   version "7.0.1"
@@ -2135,9 +2087,9 @@ globby@^11.0.3:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-graphql-config@^4.3.5:
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/graphql-config/-/graphql-config-4.3.5.tgz#bd197ec9c1e86d2696c61332be35b920ba7be700"
+graphql-config@4.3.6:
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/graphql-config/-/graphql-config-4.3.6.tgz#908ef03d6670c3068e51fe2e84e10e3e0af220b6"
   dependencies:
     "@graphql-tools/graphql-file-loader" "^7.3.7"
     "@graphql-tools/json-file-loader" "^7.3.7"
@@ -3224,6 +3176,10 @@ set-blocking@^2.0.0:
 setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz"
+
+shell-quote@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
 
 signal-exit@^3.0.2:
   version "3.0.3"
