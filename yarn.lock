@@ -586,9 +586,9 @@
   version "0.8.0"
   resolved "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz"
 
-"@graphql-codegen/cli@^2.13.6":
-  version "2.13.6"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.13.6.tgz#70e2f93aa51f5350af821063368953a667b161de"
+"@graphql-codegen/cli@^2.13.7":
+  version "2.13.7"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.13.7.tgz#53566cbba37e4c9d7e89d7c35a91e3fbf6bed988"
   dependencies:
     "@babel/generator" "^7.18.13"
     "@babel/template" "^7.18.10"
