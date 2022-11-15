@@ -1023,9 +1023,9 @@
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/@n1ru4l/graphql-live-query/-/graphql-live-query-0.10.0.tgz#2306151630b0e74b017cc1067ebbea351acf56f8"
 
-"@next/bundle-analyzer@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.0.0.tgz#e51d38fcb6b8d8b9b93950d7bf0636d44e711b2f"
+"@next/bundle-analyzer@^13.0.3":
+  version "13.0.3"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-13.0.3.tgz#17b589d0c768ec3986312ec24dfb2d7f0a0826d1"
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
